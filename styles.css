@@ -3,6 +3,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Bagian ATAS */
 #bg-img {
     height: 500px;
     width: 100%;
@@ -30,4 +31,73 @@ body {
     color: black;
     font-size: 20px;
     font-style: italic;
+}
+
+/* Bagian SECTION */
+section h3 {
+    text-align: center;
+}
+
+section ol li {
+    margin: 0 0 0 500px
+}
+
+section ul li {
+    margin: 0 0 0 500px
+}
+
+section table {
+    margin: 0 0 0 500px
+}
+
+/* Bagian CONTACT ME */
+.contactme {
+    width: 100%;
+    /* background: lightblue; */
+    background: linear-gradient(to top, #7b7b7b 0%, #ffffff 100%);
+}
+
+.contactme h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contactme label {
+    text-align: left;
+}
+
+input[type="text"], textarea {
+    width: 35%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 10px;
+}
+
+div form {
+    margin: 10px 0 0 575px
+}
+
+div form textarea {
+    height: 100px;
+}
+
+div form input[type="submit"] {
+    width: 35%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: #0088ff;
+    outline: none;
+    box-shadow: 0px 2px 2px black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2351f5;
 }

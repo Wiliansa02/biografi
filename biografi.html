@@ -8,52 +8,57 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        <h3>My Bio</h3>
-        <p>Perkenalkan nama saya Wilian Solikhul Amin atau biasa dipanggil Wili, kelahiran Brebes, tahun 1993. Saat ini saya sedang sibuk belajar mengenai web programing melalui kelas pemrograman MERN dari Eduwork. Hal yang mendasari saya mengambil kelas ini adalah keinginan untuk belajar hal baru dan menambah skill yang dapat mendukung pekerjaan saya kelak.</p>
+    <div class="atas">
+        <img id="bg-img" src="gambar/s-baker-zzvEeUlW4SI-unsplash.jpg" alt="background">
+        <h3 id="mybio">My Bio</h3>
+        <p id="pbio">Perkenalkan nama saya Wilian Solikhul Amin atau biasa dipanggil Wili, kelahiran Brebes, tahun 1993. Saat ini saya sedang sibuk belajar mengenai web programing melalui kelas pemrograman MERN dari Eduwork. Hal yang mendasari saya mengambil kelas ini adalah keinginan untuk belajar hal baru dan menambah skill yang dapat mendukung pekerjaan saya kelak.</p>
     </div>
+    <section>
+        <h3>Pengalaman Kerja</h3>
+        <ol>
+            <li>Market Surveyor, dalam program KKU di PT. Sinar Sosro, KPW Jawa Tengah.</li>
+            <li>Sales Executive, PT. Home Center Indonesia.</li>
+            <li>Admin Delivery, PT. Sahabat Abadi Sejahtera.</li>
+        </ol>
+        <h3>Hobby</h3>
+        <ul>
+            <li>Bersepeda</li>
+            <li>Bermain Game</li>
+        </ul>
+        <h3>Pendidikan Non Formal</h3>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <thead>
+                   <th>Tahun</th>
+                   <th>Keterangan</th>
+                   <th>Lembaga</th>
+            </thead>
+            <tbody>
+                   <tr>
+                       <td>2022</td>
+                       <td>Kelas pemrograman MERN.</td>
+                       <td>Eduwork</td>
+                   </tr>
+                   <tr>
+                       <td>2015</td>
+                       <td>Leadership and Entrepreneurship Camp Gel. II</td>
+                       <td>OASE Indonesia</td>
+                   </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h3>Contact Me</h3>
+        <form>
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email">
+              <br>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message"
+               rows="5" cols="33"></textarea>
+              <br>
+              <button>Send</button>
+        </form>
+    </section>
     
-    <h3>Pengalaman Kerja</h3>
-    <ol>
-        <li>Market Surveyor, dalam program KKU di PT. Sinar Sosro, KPW Jawa Tengah.</li>
-        <li>Sales Executive, PT. Home Center Indonesia.</li>
-        <li>Admin Delivery, PT. Sahabat Abadi Sejahtera.</li>
-    </ol>
-    <h3>Hobby</h3>
-    <ul>
-        <li>Bersepeda</li>
-        <li>Bermain Game</li>
-    </ul>
-    <h3>Pendidikan Non Formal</h3>
-    <table border="1" cellspacing="0" cellpadding="5">
-        <thead>
-            <th>Tahun</th>
-            <th>Keterangan</th>
-            <th>Lembaga</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2022</td>
-                <td>Kelas pemrograman MERN.</td>
-                <td>Eduwork</td>
-            </tr>
-            <tr>
-                <td>2015</td>
-                <td>Leadership and Entrepreneurship Camp Gel. II</td>
-                <td>OASE Indonesia</td>
-            </tr>
-        </tbody>
-    </table>
-    <h3>Contact Me</h3>
-    <form>
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email">
-        <br>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"
-          rows="5" cols="33"></textarea>
-        <br>
-        <button>Send</button>
-    </form>
 </body>
 </html>
